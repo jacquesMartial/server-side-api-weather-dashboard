@@ -54,13 +54,13 @@ function getCurrentWeather(city) {
 
       // current weather data
       var cityName = document.querySelector(".city-name");
-      cityName.textContent = currentData.name;
+      cityName.textContent = "City of: " + currentData.name;
 
       // currentTemp
       var currentTemp = document.getElementById("currentTemp");
       var lat = currentData.coord.lat;
       var lon = currentData.coord.lon;
-      currentTemp.textContent = "Temp:" + currentData.main.temp + "F";
+      currentTemp.textContent = "Temp:" + currentData.main.temp + "°F";
 
       //wind data
       var windEl = document.querySelector(".wind");
@@ -92,7 +92,7 @@ function getFiveDay(lat, lon) {
 
         var fiveDayTemp = document.createElement("h3");
         fiveDayTemp.textContent =
-          "Temp: " + fiveDayData.list[i].main.temp + " F";
+          "Temp: " + fiveDayData.list[i].main.temp + " °F";
         fiveDayCard.append(fiveDayTemp);
 
         var fiveDayWind = document.createElement("h3");

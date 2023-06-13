@@ -4,5 +4,5 @@ The aim here is to build a weather dashboard that will run in the browser and fe
 
 # links
 
-Deployed app link:
-Github repoitory link :
+Deployed app link: https://jacquesmartial.github.io/server-side-api-weather-dashboard/
+Github repoitory link : https://github.com/jacquesMartial/server-side-api-weather-dashboard.git
