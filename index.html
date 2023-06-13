@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Openweather Api</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <p>Weather Dashboard</p>
+    </header>
+    <main>
+      <div class="citySearch">
+        <h1>Search for a city:</h1>
+        <form id="">
+          <input id="city" type="text" placeholder="enter city name" />
+          <button id="searchWeather">Search</button>
+          <div class="searchHistory"></div>
+        </form>
+      </div>
+
+      <div class="weatherInfos">
+        <section>
+          <div class="currentWeather">
+            <h1 class="city-name"></h1>
+            <p id="currentTemp"></p>
+            <p class="wind"></p>
+            <p class="currentHumidity"></p>
+          </div>
+        </section>
+        <section>
+          <h1>5-Day Forecast</h1>
+          <div id="fivedaysForecast"></div>
+        </section>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

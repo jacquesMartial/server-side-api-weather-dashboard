@@ -1,0 +1,28 @@
+header {
+  font-size: 40px;
+  justify-content: center;
+  display: flex;
+  background-color: blueviolet;
+  color: white;
+}
+.searchHistory {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 25px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+#fivedaysForecast {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.five-day-card {
+  background-color: rgb(102, 97, 97);
+}
